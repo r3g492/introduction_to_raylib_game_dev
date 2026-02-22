@@ -1,5 +1,5 @@
 
-업계 스탠더드는 "게임 엔진"을 사용한 게임 개발입니다.
+게임 개발의 업계 스탠더드는 "게임 엔진"을 사용한 게임 개발입니다.
 게임 엔진의 대표로는 아래 친구들이 있습니다.   
 - [Unreal](https://www.unrealengine.com/ko/unreal-engine-5?gad_source=1&gad_campaignid=9593971561&gclid=CjwKCAiAzOXMBhASEiwAe14SaUePc9vOLY3_HGOcDv055801lRek0OTKJy4_bDv-2ioHlweUNo-76BoC4u4QAvD_BwE)
 - [Unity](https://unity.com/kr/products/unity-industry?utm_source=google&utm_medium=cpc&utm_campaign=nxt_abm_ind_apac_kr_ko_co_sem-gg_acq_br-pr_2026-01_unityindustry-evergreen_cc3022_x&utm_term=unity&gclsrc=aw.ds&gad_source=1&gad_campaignid=23425396452&gclid=CjwKCAiAzOXMBhASEiwAe14SaSgewnQmaeFveSpjNlNhkVoP6qEZDBK7YUeNu0N_Yr9X58_AmxF07RoCbQUQAvD_BwE)
@@ -27,7 +27,9 @@
 개인이 이부분을 해결하려면, 게임 개발 하기 전에 이 표준들부터 전부 공부 해야합니다.
 공부해서 내 게임에 호환성을 부여해야, 각 플랫폼에 배포할 수 있습니다.
 참고로 openGL을 대체 하기 위해 나온 Vulkan은 하드웨어적인 세부적인 제어가 가능하기 때문에,
-코드가 훨씬 방대합니다. 예시를 하나 붙여두겠습니다. 
+코드가 훨씬 방대합니다. 
+OpenGL은 '그려라'라고 명령하면 드라이버가 알아서 처리해주지만, Vulkan은 '메모리를 할당하고, 동기화하고, 하드웨어 상태를 직접 관리하며 그려라'라고 해야 합니다.
+예시를 하나 붙여두겠습니다.  
 [vulkan_tutorial_github](https://github.com/SaschaWillems/HowToVulkan)
 
 그래서 현실적으로 그래픽 프로그래머가 인생 목표가 아닌 사람이 상업적인 게임 개발이 목표라면  
