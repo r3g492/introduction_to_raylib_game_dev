@@ -59,3 +59,6 @@ raylib의 go wrapper 코드를 가져와서 사용합니다.
 1. 사용하는 운영체제에 따라 요구사항 설치
 2. go get -v -u github.com/gen2brain/raylib-go/raylib 실행
 3. main에 example 코드 작성
+
+*모든 예제는 편의를 위해 main에 작성하겠습니다. 모듈성이 중요하지만, 본 예제에 모듈화를 포함하면 혼동이 커질 것 같습니다.  
+
